@@ -1,0 +1,20 @@
+package com.example.learnsping.boot;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+public class CourseController {
+	//http://localhost:8080/courses
+	//course details : id , name , author
+	public List<Course> retriveAllCourses(){
+		return Arrays.asList(
+				new Course(1,"Learn aws" , "in28minutes"),
+				new Course(2, "Learn DevOps" , "in28minutes")
+				);
+	}
+	
+}
