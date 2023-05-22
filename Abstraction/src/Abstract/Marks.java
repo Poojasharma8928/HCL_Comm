@@ -1,5 +1,7 @@
-abstract class  Marks {
-
-   public abstract float getPercentage();
-
-}
+/*
+ * abstract class Marks {
+ * 
+ * public abstract float getPercentage();
+ * 
+ * }
+ */
